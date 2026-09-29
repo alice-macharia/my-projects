@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Student Experience Survey</h1>
+    <p id="description">Please share your experience as a student by answering the questions.</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Full Name:</label>
+      <input id="name" type="text" placeholder="Enter your full name" required>
+      <label for="email" id="email-label">Email Address:</label>
+      <input id="email" type="email" placeholder="Enter your email address" required>
+      <label for="number" id="number-label">Age:</label>
+      <input id="number" type="number" min="16" max="100" placeholder="Enter your age">
+      <label for="dropdown">What year are you in?</label>
+
+<select id="dropdown">
+  <option value="first">First Year</option>
+  <option value="second">Second Year</option>
+  <option value="third">Third Year</option>
+</select>
+<p>How do you feel about your course?</p>
+
+<label>
+  <input type="radio" name="course-feeling" value="enjoy">
+  I enjoy it
+</label>
+
+<label>
+  <input type="radio" name="course-feeling" value="okay">
+  It is okay
+</label>
+
+<label>
+  <input type="radio" name="course-feeling" value="difficult">
+  It is difficult
+</label>
+<p>What would you like to improve?</p>
+
+<label>
+  <input type="checkbox" value="lectures">
+  Lectures
+</label>
+
+<label>
+  <input type="checkbox" value="assignments">
+  Assignments
+</label>
+
+<label>
+  <input type="checkbox" value="facilities">
+  Learning facilities
+</label>
+<label for="comments">Additional Comments</label>
+
+<textarea
+  id="comments"
+  placeholder="Write your comments here..."
+></textarea>
+<button id="submit" type="submit">Submit Survey</button>
+    </form>
+    
+  </body>
+</html>

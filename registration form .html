@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form action="filename.php" method="post">
+
+    <label>Name:</label>
+    <input type="text" placeholder="Your Name" maxlength="50" name="uname">
+
+    <br><br>
+
+    <label>DOB:</label>
+    <input type="date" name="dateofbirth">
+
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password" name="password">
+
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="Gender" value="Female"> Female
+    <input type="radio" name="Gender" value="Male"> Male
+    <input type="radio" name="Gender" value="Other"> Other
+
+    <br><br>
+
+    <label>Course:</label>
+    <input type="checkbox" name="course" value="IT"> IT
+    <input type="checkbox" name="course" value="Data Science"> Data Science
+    <input type="checkbox" name="course" value="Computer Science"> Computer Science
+
+    <br><br>
+
+    <label>County of Birth:</label>
+    <select name="county">
+        <option value="">Select</option>
+        <option value="Nakuru">Nakuru</option>
+        <option value="Baringo">Baringo</option>
+        <option value="Narok">Narok</option>
+    </select>
+
+    <br><br>
+
+    <label>Description:</label>
+    <br>
+    <textarea cols="40" rows="10" name="description"
+        placeholder="Type your description here"></textarea>
+
+    <br><br>
+
+    <input type="submit" name="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
