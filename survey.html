@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event Feedback Survey</title>
+</head>
+<body>
+<h1>Event Feedback Survey</h1>
+<form>
+<fieldset>
+<legend>Attendee Information</legend>
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+<br><br>
+
+<label for="email">Email</label>
+<input type="email" name="email" id="email">
+
+</fieldset>
+<br>
+<fieldset>
+<legend>Feedback</legend>
+<p>How would you rate the event</p>
+
+<label>
+<input type="radio" name="ratings" value="poor">
+Poor
+</label>
+
+<label>
+<input type="radio" name="ratings" value="average">
+Average
+</label>
+
+<label>
+<input type="radio" name="ratings" value="good>
+Good
+</label>
+
+<label>
+<input type="radio" name="ratings" value="excellent">
+Excellent
+</label>
+<br><br>
+
+<label for="session">Which session did you attend</label>
+<select id="session" name="session">
+<option value="morning">Morning Session</option>
+<option value="afternoon">Afternoon Session</option>
+<option value="evening>Evening Session</option>
+</select>
+<br><br>
+
+<p>What topics would you like to cover next time?</p>
+
+<label>
+<input type="checkbox" name="topics" value="career">
+Career Development
+</label>
+<br>
+
+<label>
+<input type="checkbox" name="topics" value="technology">
+Technology
+</label>
+<br>
+
+<label>
+<input type="checkbox" name="topics" value="business>
+Business
+</label>
+
+<br><br>
+
+<label for="comments">Additional Comments:</label>
+<br>
+<textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+
+</fieldset>
+<br>
+<button type="submit">Submit Feedback</button>
+
+</form>
+</body>
+</html>
