@@ -1,0 +1,36 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#main-title{
+color: darkblue;
+padding: 2px;
+}
+
+.announcement{
+background-color: lightgray;
+padding: 12px;
+margin-bottom: 8px;
+}
+
+.urgent{
+background-color: salmon;
+font-weight: bold;
+}
+
+nav a{
+color: teal;
+margin-right: 12px;
+text-decoration: none;
+}
+
+nav a:hover{
+color: red;
+text-decoration: underline;
+}
+
+#main-title, .urgent{
+font-size: 1.2em;
+}
