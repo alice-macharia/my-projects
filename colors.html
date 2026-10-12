@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Format Comparison</title>
+  <style>
+    body {
+      display: flex;
+      gap: 16px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .box {
+      width: 150px;
+      height: 150px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .named { background-color: royalblue; }
+    .hex   { background-color: #4169e1; }
+    .rgb   { background-color: rgb(65, 105, 225); }
+    .hsl   { background-color: hsl(225, 73%, 57%); }
+  </style>
+</head>
+<body>
+  <div class="box named">Named<br>royalblue</div>
+  <div class="box hex">HEX<br>#4169e1</div>
+  <div class="box rgb">RGB<br>rgb(65, 105, 225)</div>
+  <div class="box hsl">HSL<br>hsl(225, 73%, 57%)</div>
+</body>
+</html>

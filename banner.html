@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summer Coding Bootcamp</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Step 2: gradient banner (HEX) with white text (named color) */
+    .banner {
+      background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    /* Step 3: semi-transparent black overlay (RGBA) */
+    .overlay-box {
+      background-color: rgba(0, 0, 0, 0.4);
+      display: inline-block;
+      padding: 16px 24px;
+      border-radius: 8px;
+    }
+
+    /* Step 5: tiled background image with explicit sizing */
+    .pattern-section {
+      background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+      background-size: 60px 60px;
+      background-repeat: repeat;
+      background-color: #f0f0f0;
+      padding: 40px;
+      text-align: center;
+    }
+
+    /* Step 6: HSL call-to-action text with a darker hover shade */
+    .overlay-box p {
+      color: hsl(40, 100%, 90%);
+      transition: color 0.2s;
+    }
+
+    .overlay-box:hover p {
+      color: hsl(40, 100%, 70%);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Step 1: banner with call-to-action -->
+  <div class="banner">
+    <h1>Summer Coding Bootcamp</h1>
+    <div class="overlay-box">
+      <p>Enroll before July 1st and save 20%</p>
+    </div>
+  </div>
+
+  <!-- Step 4: second section below the banner -->
+  <div class="pattern-section">
+    <p>Trusted by 500+ students worldwide</p>
+  </div>
+
+</body>
+</html>
